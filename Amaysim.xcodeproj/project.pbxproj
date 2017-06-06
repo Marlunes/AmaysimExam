@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		37596CBB1EE6E82400B73FAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37596CBA1EE6E82400B73FAE /* AppDelegate.swift */; };
-		37596CBD1EE6E82400B73FAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37596CBC1EE6E82400B73FAE /* ViewController.swift */; };
 		37596CC01EE6E82400B73FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37596CBE1EE6E82400B73FAE /* Main.storyboard */; };
 		37596CC21EE6E82400B73FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37596CC11EE6E82400B73FAE /* Assets.xcassets */; };
 		37596CC51EE6E82400B73FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37596CC31EE6E82400B73FAE /* LaunchScreen.storyboard */; };
+		37596CED1EE6EC7B00B73FAE /* Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37596CE51EE6EC7B00B73FAE /* Relationship.swift */; };
+		37596CEE1EE6EC7B00B73FAE /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37596CE61EE6EC7B00B73FAE /* Subscription.swift */; };
+		37596CEF1EE6EC7B00B73FAE /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37596CE71EE6EC7B00B73FAE /* Service.swift */; };
+		37596CF01EE6EC7B00B73FAE /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37596CE81EE6EC7B00B73FAE /* Attribute.swift */; };
+		37596CF11EE6EC7B00B73FAE /* PlanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37596CE91EE6EC7B00B73FAE /* PlanData.swift */; };
+		37596CF21EE6EC7B00B73FAE /* Downgrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37596CEA1EE6EC7B00B73FAE /* Downgrade.swift */; };
+		37596CF31EE6EC7B00B73FAE /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37596CEB1EE6EC7B00B73FAE /* Link.swift */; };
+		37596CF41EE6EC7B00B73FAE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37596CEC1EE6EC7B00B73FAE /* Product.swift */; };
+		37596CF71EE6F78300B73FAE /* LoginHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37596CF61EE6F78300B73FAE /* LoginHelper.swift */; };
+		37596CFA1EE6F7C100B73FAE /* SubscriptionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37596CF91EE6F7C100B73FAE /* SubscriptionHelper.swift */; };
+		37596CFC1EE6F7E200B73FAE /* SubscriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37596CFB1EE6F7E200B73FAE /* SubscriptionViewModel.swift */; };
+		37596CFE1EE6F9B400B73FAE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37596CFD1EE6F9B400B73FAE /* LoginViewController.swift */; };
+		37596D021EE6FB7700B73FAE /* SubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37596D011EE6FB7700B73FAE /* SubscriptionViewController.swift */; };
+		37596D051EE6FF9800B73FAE /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37596D041EE6FF9800B73FAE /* Strings.swift */; };
+		37596D081EE70B8A00B73FAE /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37596D071EE70B8A00B73FAE /* Storage.swift */; };
+		37596D0A1EE719BE00B73FAE /* collection.json in Resources */ = {isa = PBXBuildFile; fileRef = 37596D091EE719BE00B73FAE /* collection.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		37596CB71EE6E82400B73FAE /* Amaysim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amaysim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37596CBA1EE6E82400B73FAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		37596CBC1EE6E82400B73FAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37596CBF1EE6E82400B73FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37596CC11EE6E82400B73FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37596CC41EE6E82400B73FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37596CC61EE6E82400B73FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37596CE51EE6EC7B00B73FAE /* Relationship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Relationship.swift; sourceTree = "<group>"; };
+		37596CE61EE6EC7B00B73FAE /* Subscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		37596CE71EE6EC7B00B73FAE /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		37596CE81EE6EC7B00B73FAE /* Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
+		37596CE91EE6EC7B00B73FAE /* PlanData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanData.swift; sourceTree = "<group>"; };
+		37596CEA1EE6EC7B00B73FAE /* Downgrade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downgrade.swift; sourceTree = "<group>"; };
+		37596CEB1EE6EC7B00B73FAE /* Link.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		37596CEC1EE6EC7B00B73FAE /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		37596CF61EE6F78300B73FAE /* LoginHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginHelper.swift; sourceTree = "<group>"; };
+		37596CF91EE6F7C100B73FAE /* SubscriptionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionHelper.swift; sourceTree = "<group>"; };
+		37596CFB1EE6F7E200B73FAE /* SubscriptionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionViewModel.swift; sourceTree = "<group>"; };
+		37596CFD1EE6F9B400B73FAE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		37596D011EE6FB7700B73FAE /* SubscriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionViewController.swift; sourceTree = "<group>"; };
+		37596D041EE6FF9800B73FAE /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		37596D071EE70B8A00B73FAE /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		37596D091EE719BE00B73FAE /* collection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = collection.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +84,101 @@
 		37596CB91EE6E82400B73FAE /* Amaysim */ = {
 			isa = PBXGroup;
 			children = (
-				37596CBA1EE6E82400B73FAE /* AppDelegate.swift */,
-				37596CBC1EE6E82400B73FAE /* ViewController.swift */,
-				37596CBE1EE6E82400B73FAE /* Main.storyboard */,
+				37596D061EE70B7B00B73FAE /* Shared Storage */,
+				37596D031EE6FF7C00B73FAE /* String */,
+				37596CD41EE6E9F000B73FAE /* Model */,
+				37596CCD1EE6E83500B73FAE /* ViewControllers */,
+				37596CCC1EE6E82A00B73FAE /* AppDelegate */,
+				37596CCF1EE6E85600B73FAE /* Launch Screen */,
+				37596CCE1EE6E84500B73FAE /* Storyboard */,
 				37596CC11EE6E82400B73FAE /* Assets.xcassets */,
-				37596CC31EE6E82400B73FAE /* LaunchScreen.storyboard */,
 				37596CC61EE6E82400B73FAE /* Info.plist */,
+				37596D091EE719BE00B73FAE /* collection.json */,
 			);
 			path = Amaysim;
+			sourceTree = "<group>";
+		};
+		37596CCC1EE6E82A00B73FAE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				37596CBA1EE6E82400B73FAE /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		37596CCD1EE6E83500B73FAE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				37596CF51EE6F75F00B73FAE /* Login */,
+				37596CF81EE6F7A100B73FAE /* Subscription */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		37596CCE1EE6E84500B73FAE /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				37596CBE1EE6E82400B73FAE /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		37596CCF1EE6E85600B73FAE /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				37596CC31EE6E82400B73FAE /* LaunchScreen.storyboard */,
+			);
+			name = "Launch Screen";
+			sourceTree = "<group>";
+		};
+		37596CD41EE6E9F000B73FAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37596CE61EE6EC7B00B73FAE /* Subscription.swift */,
+				37596CE51EE6EC7B00B73FAE /* Relationship.swift */,
+				37596CE71EE6EC7B00B73FAE /* Service.swift */,
+				37596CE81EE6EC7B00B73FAE /* Attribute.swift */,
+				37596CE91EE6EC7B00B73FAE /* PlanData.swift */,
+				37596CEA1EE6EC7B00B73FAE /* Downgrade.swift */,
+				37596CEB1EE6EC7B00B73FAE /* Link.swift */,
+				37596CEC1EE6EC7B00B73FAE /* Product.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		37596CF51EE6F75F00B73FAE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				37596CF61EE6F78300B73FAE /* LoginHelper.swift */,
+				37596CFD1EE6F9B400B73FAE /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		37596CF81EE6F7A100B73FAE /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				37596D011EE6FB7700B73FAE /* SubscriptionViewController.swift */,
+				37596CFB1EE6F7E200B73FAE /* SubscriptionViewModel.swift */,
+				37596CF91EE6F7C100B73FAE /* SubscriptionHelper.swift */,
+			);
+			name = Subscription;
+			sourceTree = "<group>";
+		};
+		37596D031EE6FF7C00B73FAE /* String */ = {
+			isa = PBXGroup;
+			children = (
+				37596D041EE6FF9800B73FAE /* Strings.swift */,
+			);
+			name = String;
+			sourceTree = "<group>";
+		};
+		37596D061EE70B7B00B73FAE /* Shared Storage */ = {
+			isa = PBXGroup;
+			children = (
+				37596D071EE70B8A00B73FAE /* Storage.swift */,
+			);
+			name = "Shared Storage";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +243,7 @@
 				37596CC51EE6E82400B73FAE /* LaunchScreen.storyboard in Resources */,
 				37596CC21EE6E82400B73FAE /* Assets.xcassets in Resources */,
 				37596CC01EE6E82400B73FAE /* Main.storyboard in Resources */,
+				37596D0A1EE719BE00B73FAE /* collection.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +254,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37596CBD1EE6E82400B73FAE /* ViewController.swift in Sources */,
+				37596CFE1EE6F9B400B73FAE /* LoginViewController.swift in Sources */,
+				37596CEE1EE6EC7B00B73FAE /* Subscription.swift in Sources */,
+				37596CFA1EE6F7C100B73FAE /* SubscriptionHelper.swift in Sources */,
 				37596CBB1EE6E82400B73FAE /* AppDelegate.swift in Sources */,
+				37596CF01EE6EC7B00B73FAE /* Attribute.swift in Sources */,
+				37596CF71EE6F78300B73FAE /* LoginHelper.swift in Sources */,
+				37596CFC1EE6F7E200B73FAE /* SubscriptionViewModel.swift in Sources */,
+				37596D051EE6FF9800B73FAE /* Strings.swift in Sources */,
+				37596CF41EE6EC7B00B73FAE /* Product.swift in Sources */,
+				37596D021EE6FB7700B73FAE /* SubscriptionViewController.swift in Sources */,
+				37596CF21EE6EC7B00B73FAE /* Downgrade.swift in Sources */,
+				37596CED1EE6EC7B00B73FAE /* Relationship.swift in Sources */,
+				37596CEF1EE6EC7B00B73FAE /* Service.swift in Sources */,
+				37596D081EE70B8A00B73FAE /* Storage.swift in Sources */,
+				37596CF11EE6EC7B00B73FAE /* PlanData.swift in Sources */,
+				37596CF31EE6EC7B00B73FAE /* Link.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
